@@ -1,0 +1,311 @@
+@charset "utf-8";
+body{
+	vertical-align:middle;
+	font-family: '微軟雅黑';
+	background-image: url(../pics/on_the_road_background.jpg);
+	background-repeat: repeat-y;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+}
+
+form.login{
+	text-align:center;
+	vertical-align:middle;
+	font-style:oblique;
+}
+
+input.login{
+	width:auto;
+	text-align:center;
+	display:inline-block;
+}
+
+div.add{
+	margin-bottom:0px;
+	margin-top:5px;
+}
+
+div.login{
+	text-align:center;
+}
+
+#nav, #control, #search{
+	float: right;
+}
+
+#header .fixed_a {
+	float: left;
+}
+.searchKey {
+	width: 100px;
+}
+#nav {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 35px;
+}
+#search {
+	padding-top: 35px;
+}
+span,p.time{
+	color:rgb(102,102,102);
+	display: inline;
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 0px;
+	line-height: 18px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	width: 0px;
+}
+
+p.author, .publishing, .date, .pages ,p.title,p.brieflyContent {
+	color: #111;
+	display: block;
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	line-height: 18px;
+	margin-bottom: 4px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 4px;
+}
+
+.sndTitle {
+	color: #060;
+	width:auto;
+	display:block;
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	clear:both;
+	margin-bottom:10px;
+	margin-top: 20px;
+}
+
+div#main {
+	width: 740px;
+    min-height: 780px;
+	display: block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+}
+
+div#footer {
+	width: 780px;
+	display: block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: auto;
+}
+
+div#header {
+	width: 780px;
+	display: block;
+	vertical-align: middle;
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+}
+
+div.locationBriefly {
+	height:auto;
+	overflow:hidden;
+	border-bottom: 1px solid rgb(102,102,102);
+	border-bottom-style:dotted;
+}
+div.picture{
+	overflow:auto;
+	width:97px;
+	float:left;
+	margin-right:10px;
+	min-height:151px;
+}
+#logo {
+	width: 120px;
+	height: 50px;
+}
+
+#myInfo {
+	padding-bottom: 10px;
+    min-height: 97px;
+}
+a.user {
+	display: inline;
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	height: 0px;
+	clear:both;
+	text-decoration:none;
+}
+
+a  {
+	//color: #060;
+	//text-decoration: none;
+}
+a:visited {
+	//color: #060;
+	//text-decoration: none;
+}
+
+a:hover{
+	//color: white;
+	//text-decoration: none;
+	//background: #060;
+
+}
+p.user{
+	margin-top:1px;
+	width:48px;
+	text-align:center;
+}
+
+div#note{
+	width:730px;
+	display:block;
+	vertical-align:middle;
+	margin-left:auto;
+	margin-right:auto;
+	height:auto;
+}
+div.noteDetail, div.noteDetail{
+	width: 700px;
+	border-bottom: 1px dotted rgb(102,102,102);
+}
+div.noteDetail .noteContent {
+	margin-left: 70px;
+	line-height: 25px;
+}
+.noteDetail {
+    min-height: 560px;
+}
+
+
+div.tvlpicture{
+	float:left;
+	width:100px;
+	margin-right:10px;
+	text-align:center;
+}
+
+#tvllist{
+    clear:both;
+}
+
+div.userPicture {
+	float:left;
+	width:97px;
+	height:97px;
+	margin-right:10px;
+	text-align:center;
+}
+
+img#locationPicMid, .locationPic {
+	width:100px;
+    min-height: 100px;
+}
+
+
+img#userPic {
+	width:97px;
+	height:97px;
+}
+div.user_picture{
+	float:left;
+	width:60px;
+	margin-right:10px;
+}
+
+div.briefly, div.noteBriefly {
+	border-bottom: 1px solid rgb(102,102,102);
+	border-bottom-style:dotted;
+}
+
+.brieflyContent, .time  {
+	padding-left: 70px;
+}
+img.user_picture{
+	width:48px;
+	height:48px;
+	border: 1px solid #999999;
+
+}
+
+p.notecontent, p.noteContent {
+	font-family: '微软雅黑', Arial, Helvetica, sans-serif;
+}
+
+.fixed_a:hover  {
+	color: #060;
+	text-decoration: none;
+	background: white;
+}
+.pages span  {
+	display: inline-block;
+	width: 25px;
+	height: 20px;
+	background: #F0F0F0;
+	color: #060;
+	text-align: center;
+	margin-right: 10px;
+}
+.pages .current  {
+	background: #060;
+	color: #F0F0F0;
+}
+.inputField .inputTitle {
+	font-size: 20px;
+	width: 250px;
+	border-radius: 10px;
+}
+.inputField .inputContent {
+	width: 400px;
+	height: 200px;
+	border-radius: 10px;
+}
+.inputField .inputGrade {
+	width: 50px;
+	border-radius: 5px;
+}
+
+.commentSubmit {
+	margin-left: 80px;
+}
+pre { 
+	white-space:pre-wrap;/*css-3*/ 
+	white-space:-moz-pre-wrap;/*Mozilla,since1999*/ 
+	white-space:-pre-wrap;/*Opera4-6*/ 
+	white-space:-o-pre-wrap;/*Opera7*/ 
+	word-wrap:break-word;/*InternetExplorer5.5+*/　　
+}
+
+.addLocationBlock {
+    clear: both;
+}
+
+.container {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+#indexMainBlock {
+    min-height: 780px;
+}
